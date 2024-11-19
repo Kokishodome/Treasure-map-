@@ -7,15 +7,50 @@ body{
     background-image: url('bg.jpeg');
     background-size: cover;
     background-position: center;
+    text-align: center;
 }
 
 h1{
     font-size: 70px;
-    text-align: center;
     font-family: "Caesar Dressing", system-ui;
     background: rgb(231,67,127);
     background: linear-gradient(196deg, rgba(231,67,127,1) 0%, rgba(153,12,27,1) 49%, rgba(140,17,66,1) 100%);
     display: inline-block;
    -webkit-background-clip: text;
    color: rgba(240, 248, 255, 0);
+
+}
+
+h4{
+    background-color: white;
+    border-radius: 10px;
+    font-family: "Caesar Dressing", system-ui;
+    margin: 20px 0;
+    display: inline-block;
+    padding: 10px 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.414);
+    color: rgb(37, 37, 37);
+}
+
+#pirate{
+    width: 40px;
+    position: absolute;
+    left: 80px;
+    top: 240px;
+    transition: 1s;
+}
+
+#game{
+    
+    max-width: 450px;
+    margin: auto;
+    position: relative;
+}
+
+#map{
+    width: 100%;
+}
+
+html{
+    min-height: 100%;
 }
